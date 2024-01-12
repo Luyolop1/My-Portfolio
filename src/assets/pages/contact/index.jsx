@@ -6,7 +6,7 @@ import "./styles.css";
 export default function index() {
   return (
      <section id="contact">
-
+      <div className="contact-header"><h2>contact</h2></div>
         <div className="contact-form">
             
             <form action=""> 

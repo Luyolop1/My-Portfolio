@@ -2,6 +2,9 @@ import React from 'react';
 import './styles.css';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
+import Fade from 'react-reveal/Fade';
+
+
 
 export default function index() {
   return (
@@ -11,7 +14,10 @@ export default function index() {
         </div>
      <div className="projects">
        <div className="slider-container">
-         <div className="slide-content">
+       <Fade bottom> 
+        <div className="card-group">
+          
+
             <div className="card-wrapper">
                 <div className="card">
                     <div className="image-content">
@@ -28,11 +34,51 @@ export default function index() {
                        <button className='Vmore-btn'>View more</button>
                     </div>
                 </div>
+             </div>
 
+             <div className="card-wrapper">
+                <div className="card">
+                    <div className="image-content">
+                        <span className='overlay'></span>
+
+                        <div className="card-image">
+                            <img src="" alt="" srcset="" />
+                        </div>
+
+                        <div className="card-content">
+                            <h2 className='name'>Eclipsus</h2>
+                            <p className='description'>This is a Emergency services project </p>
+                        </div>
+                       <button className='Vmore-btn'>View more</button>
+                    </div>
+                </div>
+             </div>
+
+
+
+             <div className="card-wrapper">
+                <div className="card">
+                    <div className="image-content">
+                        <span className='overlay'></span>
+
+                        <div className="card-image">
+                            <img src="" alt="" srcset="" />
+                        </div>
+
+                        <div className="card-content">
+                            <h2 className='name'>Eclipsus</h2>
+                            <p className='description'>This is a Emergency services project </p>
+                        </div>
+                       <button className='Vmore-btn'>View more</button>
+                    </div>
+                </div>
+             </div>
                 
-            </div>
-         </div>
-       </div>
+          </div>
+          </Fade>
+
+          
+        </div>
        </div>
     </section>
   )

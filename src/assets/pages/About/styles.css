@@ -1,6 +1,7 @@
 #About {
     margin-top: 10px;
     margin-bottom: 100px;
+   
 }
 
 #About .about-title h1{
@@ -50,4 +51,28 @@
 #About .col-right p{
     margin-left: 150px;
     margin-top: 30px;  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    #About .about-title{
+       margin-left: -70px;
+       position: relative;
+      
+    }
+
+    #About .about-group{
+      align-items: center;
+      justify-content: center;
+    }
+
+    #About .about-group .col-right{
+        margin-left: 900px;
+    }
+     
+    
+    #About .about-group .col-left{
+        margin-right: 100px;
+    }
 }

@@ -18,21 +18,18 @@
     font-weight: 300;
 }
 .projects{
-    display: inline-flex;
     align-items: center; 
     justify-content: center;
-    background-color: #EFEFEF;
-}
-.slider-container{
-  max-width: 1120px; 
-  width: 100px;
-  background-color: grey;
-  padding: 0 40px;
+  
 }
 
 
-.slider-content{
-    margin: 0 40px;
+.card-group{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 400px;
+    align-items: center;
+    justify-content: center;
 }
 
 .card{
