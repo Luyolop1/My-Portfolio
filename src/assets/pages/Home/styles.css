@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+
 *{
    margin: 0; 
    padding: 0;
-    font-family: sans-serif;
 }
 
 #home{
@@ -15,6 +16,7 @@
     margin-left: 600px;
     font-size: 70px;
     font-weight: 200;
+    font-family: 'Pacifico', cursive;
 }
 
 #Home  p{
@@ -129,3 +131,8 @@ img {
         
 }
   
+
+@media only screen and (max-width: 600px) {
+
+
+}

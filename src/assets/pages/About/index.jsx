@@ -12,7 +12,7 @@ export default function index() {
         <div className="about">
        
         <div className="about-title">
-          <Fade bottom>  <h1>About</h1></Fade>
+           <h1>About</h1>
         </div>
 
         <div className="about-group">

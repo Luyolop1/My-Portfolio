@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Comfortaa:wght@300&family=Dancing+Script&family=Pacifico&family=Rubik+Scribble&family=Teko:wght@300&display=swap');
+
 #contact{
     height: 80vh;
     width: 90vw;
@@ -9,6 +11,7 @@
     margin-bottom: 100px;
     font-size: 35px;
     font-weight: 700;
+    font-family: 'Rubik Scribble', system-ui;
 }
 
 .contact-form{

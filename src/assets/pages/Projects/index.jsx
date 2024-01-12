@@ -14,7 +14,7 @@ export default function index() {
         </div>
      <div className="projects">
        <div className="slider-container">
-       <Fade bottom> 
+      
         <div className="card-group">
           
 
@@ -75,7 +75,7 @@ export default function index() {
              </div>
                 
           </div>
-          </Fade>
+      
 
           
         </div>
