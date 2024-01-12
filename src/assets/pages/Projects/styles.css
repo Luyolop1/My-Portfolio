@@ -1,0 +1,123 @@
+#Projects{
+    margin-bottom: 100px;
+}
+
+
+
+
+#Projects  .title{
+    font-size: 20px;
+    margin-left: 700px;
+    font-weight: 600;
+}
+
+#Projects  .title h4{
+    margin-top: 200px;
+    margin-left: 770px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.projects{
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+.slider-container{
+  max-width: 1120px; 
+  width: 100px;
+  background-color: grey;
+  padding: 0 40px;
+}
+
+
+.slider-content{
+    margin: 0 40px;
+}
+
+.card{
+    width: 320px;
+    border-radius: 24px;
+    background-color: white;
+    box-shadow: 2px 20px 20px;
+    margin-left: 8cap;
+}
+
+.image-content,
+.card-content{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 10px 14px;
+}
+
+.image-content{
+    row-gap: 5px;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #265DF2;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: red;
+}
+
+.overlay::after{
+    border-radius: 0 25px 0 0 ;
+    background-color: #ffff;
+}
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.Vmore-btn{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px ;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition:  all 0.3s ease;
+}
+
+
+.Vmore-btn{
+    background-color: #265DF2;
+}
+

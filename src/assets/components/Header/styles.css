@@ -1,0 +1,50 @@
+
+nav{
+    float: right;
+    display: flex;  
+    margin-top: -280px;
+    position: fixed;
+}
+
+
+nav ul  {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 170px;
+}
+
+nav ul li a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+   color: rgb(245, 10, 57);
+   transition: .3s ease;
+}
+
+img{
+    border-radius: 50% 50%;
+    background-color: black;
+}
+
+.Logo{
+    margin-right: 900px;
+    height: 40px;
+    width: 70px;
+    background-color: black;
+    border-radius: 50% 50%;
+    z-index: 1;
+}
+
+
+.Logo::after{
+    content: "";
+    padding: 10px;
+    background-color: black;
+    border-radius: 50% 50%;
+}
+

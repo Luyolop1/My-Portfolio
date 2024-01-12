@@ -1,0 +1,64 @@
+*{
+   margin: 0; 
+   padding: 0;
+    font-family: sans-serif;
+}
+
+#home{
+     height: 100vh;
+}
+   
+
+
+#Home h1{
+    margin-top: 300px;
+    margin-left: 600px;
+    font-size: 70px;
+    font-weight: 200;
+}
+
+#Home  p{
+   margin-left: 670px;
+   font-size: 30px;
+}
+
+
+.Download-resume{
+    margin-top: 20px;
+    margin-left: 650px;
+    border: 3px solid crimson ;
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    text-decoration: none;
+    color: crimson;
+    font-weight: 560;
+    font-size: 16px;
+}
+
+
+
+.Download-resume:hover{ 
+    background: crimson;
+     transition: .5s ease;
+     color: white;
+}
+
+
+.skill p{
+    padding: 50px 75px;
+    
+}
+
+.skills-group ul {
+    list-style: none;
+    display: flex;
+    margin-left: 630px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+

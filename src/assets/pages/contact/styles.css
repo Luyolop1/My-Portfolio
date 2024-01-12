@@ -1,0 +1,80 @@
+#contact{
+    height: 80vh;
+    width: 90vw;
+}
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 90%; 
+    max-width: 600px;
+}
+
+.input-group{
+margin-bottom: 30px;
+position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid crimson;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+}
+
+
+.submit{
+    width: 104%;
+    cursor: text;
+    padding: 10px 0;
+    border: 1px solid crimson;
+    color: crimson;
+    background: transparent;
+    font-weight: 700;
+}
+
+.submit:hover{
+    transition:  .5s ease;
+    color: white;
+    background: crimson;
+    font-weight: 700;
+}
+
+label{
+    height: 100;
+    position: absolute;
+    left:  0;
+    top: 0;
+    padding: 10px;
+    color: black;
+    cursor: text;
+    transition: .2s;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.row .input-group{
+    flex-basis: 48%;
+
+}
