@@ -16,13 +16,13 @@ export default function index() {
         </div>
 
         <div className="about-group">
-          <Fade right>
+         
            <div className="col-right">
                 <h3>About me</h3>
                 <p>Hello</p>
-                <button style={{marginLeft: 60}}>Download Resume</button>
+                <button  className="Download-btn">Download Resume</button>
             </div>
-         </Fade>
+      
 
           <Fade left>
             <div className="col-left">
