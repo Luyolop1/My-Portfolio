@@ -22,6 +22,7 @@
 #Home  p{
    margin-left: 670px;
    font-size: 30px;
+   
 }
 
 .Home{
@@ -57,16 +58,21 @@
     
 }
 
+.skills-group{
+    margin-left: -30px;
+}
+
 .skills-group ul {
     list-style: none;
     display: flex;
-    margin-left: 630px;
+   
 }
 
-img {
-    height: 30px;
-    width: 30px;
+.skills-group ul li img {
+    height: 40px;
+    width: 40px;
     margin-left: 20px;
+    border-radius: 50% 50%;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

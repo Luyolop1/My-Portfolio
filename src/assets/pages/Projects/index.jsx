@@ -1,8 +1,6 @@
 import React from 'react';
 import './styles.css';
-import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import Fade from 'react-reveal/Fade';
 
 
 
@@ -16,7 +14,8 @@ export default function index() {
        <div className="slider-container">
       
         <div className="card-group">
-          
+   
+   
 
             <div className="card-wrapper">
                 <div className="card">
@@ -74,10 +73,11 @@ export default function index() {
                 </div>
              </div>
                 
-          </div>
+
       
 
           
+          </div>
         </div>
        </div>
     </section>

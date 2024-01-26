@@ -2,8 +2,6 @@ import React from 'react';
 import '../Home/styles.css';
 import Fade from 'react-reveal/Fade';
 
-
-
 //Images
 import azure from "../../Images/azure.jpg";
 import Csharp from "../../Images/csharp.png";

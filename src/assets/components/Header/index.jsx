@@ -4,6 +4,8 @@ import Logo from '../../images/LP_Logo.png';
 import Fade from 'react-reveal/Fade';
 
 export default function index() {
+
+  
   return (
 <section id='header'>
     <div className="header">

@@ -16,7 +16,7 @@ export default function index() {
         </div>
 
         <div className="about-group">
-         
+        <Fade right>
            <div className="col-right">
                 <h3>About me</h3>
                 <p>I'm Sofware Developer with Expertise in Web Development and Mobile Development
@@ -26,7 +26,7 @@ export default function index() {
               <br></br><br></br> culture wise I fit every style😄 ☝️community upliftment is my next child .</p>
                 <button  className="Download-btn">Download Resume</button>
             </div>
-      
+        </Fade>
 
           <Fade left>
             <div className="col-left">
